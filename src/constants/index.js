@@ -230,28 +230,28 @@ const projects = [
     repo: 'https://farmermanagement.w3spaces.com/',
     demo: 'https://farmermanagement.w3spaces.com/',
   },
-  {
-    id: 'project-3',
-    name: 'Doctor Patient',
-    description: 'Project aims to ease communication between Doctor and Patients',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://doctorpatient.w3spaces.com',
-    demo: 'https://doctorpatient.w3spaces.com',
-  },
+  // {
+  //   id: 'project-3',
+  //   name: 'Doctor Patient',
+  //   description: 'Project aims to ease communication between Doctor and Patients',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: math,
+  //   repo: 'https://doctorpatient.w3spaces.com',
+  //   demo: 'https://doctorpatient.w3spaces.com',
+  // },
   {
     id: 'project-4',
     name: 'Talent hunt',
