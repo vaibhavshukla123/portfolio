@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { shaq, bwmap, worldmap, myresume } from '../assets';
 
 const Hero = () => {
   return (
@@ -48,6 +48,23 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Welcome to my portfolio website. <br className="sm:block hidden" />
               Checkout some of my interesting projects below.
+              <br></br>
+              <br></br>
+              <br></br>
+
+              <button 
+              onClick={() =>
+                window.open(
+                  // 'https://www.scribd.com/document/694430554/Resume', //paste the link to your resume here
+                  myresume, //paste the link to your resume here
+                  '_blank'
+                )
+              }>
+                
+      
+              MY RESUME
+              </button>
+
             </p>
           </div>
           <div
@@ -83,9 +100,9 @@ const Hero = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 ml-[50vw] 
-            md:ml-[60vw] xmd:ml-[60vw] 
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+            className="absolute bottom-0 xl:ml-[37vw] 
+            md:ml-[37vw] xmd:ml-[37vw] 
+            sm:h-[90vh] md:h-[70vh] xl:h-[80vh] xl\:ml-\[37vw\] sm\:ml-\[20vw\]"
             src={shaq}
             alt="shaquille"
           />

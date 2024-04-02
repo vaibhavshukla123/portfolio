@@ -44,6 +44,8 @@ const About = () => {
         development and contribute
         towards the prosperity of the
         organization.
+        
+      
 
       </motion.p>
 
