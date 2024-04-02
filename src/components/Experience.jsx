@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { styles } from '../styles';
 import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
-import { download, downloadHover, resume } from '../assets';
+import { download, downloadHover, resume, myresume} from '../assets';
 import { textVariant } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => (
@@ -64,12 +64,12 @@ const Experience = () => {
         </h2>
       </motion.div>
 
-      <div className="mt-20 flex flex-col">
+      <div className="mt-20 flex flex-col" >
         <VerticalTimeline className="vertical-timeline-custom-line">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
-          <VerticalTimelineElement
+          <VerticalTimelineElement id="myresume"
             contentStyle={{
               background: '#eaeaec',
               color: '#292929',
@@ -92,7 +92,7 @@ const Experience = () => {
                 />
               </div>
             }>
-            <button
+            <button 
               className="live-demo flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-3 pr-3 
@@ -103,7 +103,8 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'https://www.scribd.com/document/694430554/Resume', //paste the link to your resume here
+                  // 'https://www.scribd.com/document/694430554/Resume', //paste the link to your resume here
+                  myresume, //paste the link to your resume here
                   '_blank'
                 )
               }
