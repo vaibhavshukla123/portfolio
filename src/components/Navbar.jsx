@@ -46,7 +46,7 @@ const Navbar = () => {
                 {
                   nav.id == "myresume"
                   ?
-                  <a href="/src/assets/resume/myresume.pdf" target="_blank">{nav.title}</a>
+                  <a href="/assets/myresume-3d8a0bab.pdf" target="_blank">{nav.title}</a>
                   :<a href={`#${nav.id}`}>{nav.title}</a>
                 }
             </li>
