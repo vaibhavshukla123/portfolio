@@ -51,19 +51,20 @@ const Hero = () => {
               <br></br>
               <br></br>
               <br></br>
-
+{/* 
               <button 
               onClick={() =>
                 window.open(
                   // 'https://www.scribd.com/document/694430554/Resume', //paste the link to your resume here
-                  myresume, //paste the link to your resume here
+                  // myresume, //paste the link to your resume here
+                  "/src/assets/resume/myresume.pdf",
                   '_blank'
                 )
               }>
                 
       
               MY RESUME
-              </button>
+              </button> */}
 
             </p>
           </div>
